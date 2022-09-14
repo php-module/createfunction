@@ -1,0 +1,39 @@
+{
+	"name": "php_modules/createfunction",
+	"version": "1.0",
+	"description": "Dynamically Create php function",
+  "type": "library",
+	"license": "MIT",
+	"keywords": [
+	],
+	"autoload": {
+    "psr-4": {
+      "Sammy\\": "Sammy/"
+    },
+
+    "psr-0": {
+      "Sammy\\": "Sammy/"
+    },
+
+		"classmap": [],
+		"files": []
+	},
+  "homepage": "https://github.com/php-module/createfunction",
+  "readme": "./README.md",
+  "authors": [
+    {
+      "name": "Agostinho Lopes",
+      "email": "agostinhosaml832@gmail.com",
+      "homepage": "https://agostinhosamil.github.io",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "base.samils@gmail.com",
+    "issues": "https://github.com/php-module/createfunction/issues",
+    "wiki": "https://github.com/php-module/createfunction/wiki"
+  },
+	"require": {
+		"php": ">=5.6.20"
+	}
+}
