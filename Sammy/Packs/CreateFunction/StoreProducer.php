@@ -65,7 +65,7 @@ namespace Sammy\Packs\Createfunction {
      * @param  Closure $body
      * @return null
      */
-    private static final function register ($name, $args, $body) {
+    private static function register ($name, $args, $body) {
       if (!(is_string($name) && $name))
         return;
 

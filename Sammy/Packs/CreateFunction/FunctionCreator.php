@@ -65,7 +65,7 @@ namespace Sammy\Packs\Createfunction {
      * @param  array $args  arguments
      * @return null
      */
-    private static final function createFunc ($name, $opts, $args) {
+    private static function createFunc ($name, $opts, $args) {
       $rightNameRe = '/^[a-zA-Z_]([a-zA-Z0-9_]*)$/';
       $opts = !is_array($opts) ? ['log' => true] : $opts;
 

@@ -63,7 +63,7 @@ namespace Sammy\Packs\CreateFunction {
      * @param  string $funcId
      * @return null
      */
-    private static final function declares ($name, $funcId) {
+    private static function declares ($name, $funcId) {
       eval ('function '.$name.' () {
         $args = func_get_args();
         $funcId = \''.$funcId.'\';
